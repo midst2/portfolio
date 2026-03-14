@@ -1,5 +1,7 @@
 import { motion } from "framer-motion";
 import Portrait from "../src/assets/Portrait.jpg";
+import Resume from "../src/assets/Resume.pdf";
+import Transcript from "../src/assets/Transcript.pdf";
 
 const SE = "'Special Elite', 'Courier New', monospace";
 const CAV = "'Caveat', cursive";
@@ -504,7 +506,7 @@ export default function AmirResumeCard() {
         </motion.div>
         <div style={{ display: "flex", gap: 12, marginBottom: 8 }}>
         <a
-            href="src/assets/Resume.pdf"
+            href={Resume}
             download
             style={{
                 background: "#2a7e6e",
@@ -521,7 +523,7 @@ export default function AmirResumeCard() {
             <p className="font-heading">Download Resume</p>
         </a>
         <a
-            href="src/assets/Transcript.pdf"
+            href={Transcript}
             download
             
             style={{
