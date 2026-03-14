@@ -1,4 +1,4 @@
-import Logo from "../src/assets/Logo.svg";
+import Logo from "../src/assets/logo.svg";
 const Footer = () => {
   return (
     <div className="relative z-10">
