@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import Portrait from "../src/assets/Portrait.jpg";
 
 const SE = "'Special Elite', 'Courier New', monospace";
 const CAV = "'Caveat', cursive";
@@ -261,7 +262,7 @@ export default function AmirResumeCard() {
               }}
             >
               <img
-                src="src/assets/Portrait.jpg"
+                src={Portrait}
                 alt="Amir Yunuh"
                 style={{
                   width: 148,

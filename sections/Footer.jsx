@@ -1,15 +1,16 @@
+import Logo from "../src/assets/Logo.svg";
 const Footer = () => {
   return (
     <div className="relative z-10">
       <div className="main-container bg-black justify-center h-full py-24">
         <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-4 text-justify">
-          <div className=""><img src="src/assets/logo.svg" alt="" /></div>
+          <div className=""><img src={Logo} alt="" /></div>
           <div>
-            <span className="font-bold">Services</span>
-            <p>Web Design</p>
+            <span className="font-bold">Profession</span>
+            <p>Front-end Development</p>
             <p>UX / UI</p>
-            <p>Web Development</p>
-            <p>Branding</p>
+            <p>Back-end Development</p>
+            <p>Computer Vision</p>
           </div>
           <div>
             <span className="font-bold">Accessibility</span>
